@@ -5,7 +5,10 @@
 ![Screenshot della pagina di login](img/loginScreen.png)
 
 ## Descrizione
-Piattaforma per giocare a semplici giochi contro il computer!
+Progetto sviluppato per il corso di Progettazione Web dell'Università di Pisa.
+
+E' una piattaforma per giocare a semplici giochi contro il computer!
+
 Giochi inclusi:
 * **Tic Tac Toe**
 * **Impiccato**
@@ -54,23 +57,22 @@ Per testare questo progetto in locale, assicurati di avere installato un ambient
     
     Usando come esempio XAMPP, avvia i moduli Apache e MySQL dal pannello di controllo di XAMPP.
 
-     Apri il browser e vai all'indirizzo http://localhost/phpmyadmin.
+    Apri il browser e vai all'indirizzo:
+    ```bash
+    http://localhost/phpmyadmin
+    ```
 
     Crea un nuovo database vuoto e chiamalo **playHub**.    
 
     Seleziona il database appena creato, vai nella scheda *"Importa"* e carica il file *database.sql* che trovi nella cartella *mysql/* del progetto.
 
-3. **Configurazione delle Credenziali**
-
-    Naviga all'interno della cartella del progetto fino a *php/utility/*.
+3. **Naviga** all'interno della cartella del progetto fino a *php/utility/*.
 
     Troverai un file chiamato *dbparams.example.php*. Rinominalo oppure fanne una copia chiamandola **dbparams.php**.
 
     Apri il nuovo file dbparams.php con un editor di testo e inserisci le credenziali del tuo database locale.
     
-4. **Avvio dell'Applicazione**
-
-    Apri il browser e digita:
+4. **Apri il browser** e digita:
     ```bash
     http://localhost/PWeb_Project
     ```
