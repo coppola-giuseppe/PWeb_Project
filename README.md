@@ -80,3 +80,5 @@ La guida seguirà come base XAMPP.
     ```
 
 5. ***Buon divertimento!*** 😎😎
+<br><br><br>
+![Screenshot della pagina di login](img/homepage_example.png)
