@@ -2,7 +2,7 @@
 
 # playHub
 
-![Screenshot della pagina di login]([https://github.com/coppola-giuseppe/PWeb_Project/img/loginScreen.png])
+![Screenshot della pagina di login](https://github.com/coppola-giuseppe/PWeb_Project/img/loginScreen.png)
 
 ## Descrizione
 Piattaforma per giocare a semplici giochi contro il computer!
