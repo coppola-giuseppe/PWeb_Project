@@ -1,0 +1,114 @@
+body{
+    display: grid;
+}
+
+#container{
+    position: absolute;
+    background-color: #233142;
+    max-width: 100%;
+    max-height: fit-content;
+    top: 10%;
+    border-radius: 30px;
+    display: grid;
+    justify-self: center;
+}
+
+#utente{
+    width: fit-content;
+    column-gap: 10px;
+    height: fit-content;
+    border: 2px solid #233142;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 50px;
+    justify-self: right;
+    display: grid;
+    grid-template-areas: 'user link out';
+}
+
+#nomeutente{
+    font-size: x-large;
+    margin-top: 3px;
+    grid-area: user;
+}
+
+
+#profile_link{
+    grid-area:link;
+    text-decoration: none;
+}
+#logout{
+    text-decoration: none;
+    grid-area: out;
+    width: 35px;
+}
+
+#nav{
+    background-color: #11102f;
+    margin: 20px;
+    border-radius: 50px;
+    display: grid;
+    grid-template-areas: 'img utente';
+}
+#imgLogo{
+    padding-left: 300px;
+    grid-area: img;
+}
+#utente{
+    background-color: #e3e3e3;
+    grid-area: utente;
+}
+
+#raccolta{
+    background-color: #455d7a;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 60px;
+    column-gap: 60px;
+}
+
+
+.games{
+    background-color: #f95959;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #e3e3e3;
+    justify-self: center;
+    display: grid;
+    width:350px;
+    height: 350px;
+    display: grid;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+.games>img{
+    border: 2px solid black;
+    object-fit: contain;
+    position: relative;
+    justify-self: center;
+    width: 229px;
+    top: 30px;
+}
+
+.descrizione{
+    margin: 0px;
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 2px 2px 5px black;
+    color: black;
+}
+.descrizione:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+#raccolta a:visited{
+    color: black;
+}
+
+

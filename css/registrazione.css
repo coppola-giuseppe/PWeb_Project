@@ -1,0 +1,125 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#container1{
+    background-color: #bbe4e9;
+    display: grid;
+    width: 685px;
+    height: 900px;
+    border-radius: 100px;
+    justify-self: center;
+}
+
+#container2{
+    width: 660px;
+    height: 875px;
+    background-color: #53a8b6;
+    border-radius: 100px;
+    margin: 0px;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    padding: 30px;
+}
+
+fieldset{
+    display: grid;
+    width: 530px;
+    grid-template-columns: 200px 0px 0px;
+    row-gap: 30px;
+    padding: 30px;
+    background-color: #5585b5; 
+    border: 2px solid white; 
+}
+
+input[type="submit"]{
+    width: fit-content;
+    cursor: pointer;
+}
+
+label{
+    font-weight: bold;
+    font-size: large;
+}
+
+input, select, option{
+    width: fit-content;
+    height: fit-content;
+}
+
+#footer{
+    text-align: center;
+    font-size: x-large;
+    display: grid;
+}
+
+#passVerify{
+    position: relative;
+    left: 15%;
+    bottom: 10%;
+    text-align: left;
+    font-size: large;
+    
+}
+
+#passVerify h4{
+    color: red;
+}
+
+#esito{
+    color: red;
+    white-space: pre;
+}
+
+#homepage{
+    position: absolute;
+    text-align: center;
+    font-size: x-large;
+    bottom: 50px;
+    right: 0px;
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    padding: 20px;
+}
+
+#showPass{
+    position:relative; 
+    left: 180px;
+    top: 1px;
+    cursor: pointer;
+}
+
+#title{
+    display: grid;
+    position: relative;
+    top: 10px;
+    grid-area: title;
+    text-align: right;
+    font-size: xx-large;
+    color: white; 
+    width: 350px;
+    height: fit-content;
+    box-shadow: 1px 5px 0px 1px white;
+    background-color: #bbe4e9;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 5px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+
+legend{
+    border: 2px solid white;
+    background-color: #5585b5; 
+    border-radius: 30px;
+    padding: 5px;
+    font-size: large;
+    font-weight: bolder;
+}

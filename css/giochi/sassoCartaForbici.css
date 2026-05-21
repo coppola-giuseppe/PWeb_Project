@@ -1,0 +1,247 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#container1a{
+    display: grid;
+    width: 1000px;
+    height: 900px;
+    background-color: #f0ab8d;
+    justify-self: center;
+    border-radius: 30px;
+}
+
+#container2a{
+    width: 975px;
+    height: 875px;
+    background-color: #eb2632;
+    justify-self: center;
+    align-self: center;
+    border-radius: 30px;
+}
+
+#nav{
+    display: grid;
+    grid-template-areas: 'title user';
+}
+
+#title{
+    grid-area: title;
+    text-align: right;
+    font-size: xx-large;
+    color: white;
+    width: 400px;
+    height: fit-content;
+    box-shadow: 1px 5px 0px 1px white;
+    background-color: #f0ab8d;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 5px;
+    padding-right: 30px;
+    justify-self: left;
+    margin-bottom: 20px;
+}
+
+#user{
+    grid-area: user;
+    margin: auto;
+    width: fit-content;
+    column-gap: 10px;
+    height: fit-content;
+    border: 2px solid #233142;
+    padding: 5px;
+    border-radius: 50px;
+    justify-self: right;
+    display: grid;
+    justify-items: center;
+    grid-template-areas: 'pic user link logout';
+    background-color: #e3e3e3;
+}
+
+#user>strong{
+    font-size: x-large;
+    margin-top: 3px;
+    grid-area: user;
+}
+#user img{
+    grid-area: pic;
+    width: 35px;
+}
+#profile_link{
+    grid-area:link;
+    text-decoration: none;
+}
+#logout{
+    text-decoration: none;
+    grid-area:logout;
+    width: 35px;
+}
+
+#startButton,#reset{
+    width: fit-content;
+    justify-self: center;
+    font-size: xx-large;
+    background-color: #f6e4ad;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#startButton:hover{
+    background-color: orange;
+}
+
+#regole{
+    text-align: center;
+}
+
+#container1b{
+    position: relative;
+    left: 100px;
+    display: grid;
+    width: 350px;
+    height: 475px;
+    background-color: #f0ab8d;
+    justify-self: center;
+    border-radius: 30px;
+}
+
+#container2b{ 
+    width: 325px;
+    height: 450px;
+    background-color: white;
+    justify-self: center;
+    align-self: center;
+    border-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+#game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#scegli{
+    display: grid;
+    grid-template-areas:    'text text text'
+                            'scelta1 scelta2 scelta3';
+    column-gap: 50px;
+    row-gap: 80px;
+
+}
+
+#scegli h1{
+    grid-area: text;
+    text-align: center;
+}
+
+.scelta{
+    text-align: center;
+   
+}
+.scelta:nth-child(1){
+    grid-area: scelta1;
+}
+.scelta:nth-child(2){
+    grid-area: scelta2;
+}
+.scelta:nth-child(3){
+    grid-area: scelta3;
+}
+
+.scelta:hover img{
+    width: 300px;
+}
+
+.scelta:hover{
+    font-size: xx-large;
+    color: white;
+    text-decoration: underline;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#countdown{
+    grid-area: count;
+}
+
+#giocatore{
+    grid-area: player;
+}
+
+#cpu{
+    grid-area: cpu;
+}
+#esito{
+    display: grid;
+    justify-self: center;
+    grid-area: esito;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: #f0ab8d;
+    width: fit-content;
+    border-radius: 30px;
+}
+
+#reset{
+    grid-area: reset;
+}
+
+#reset:hover{
+    background-color: orange;
+}
+
+#gioca{
+    grid-template-areas:    'count count'
+                            ' . cpu'
+                            'player .'
+                            'esito esito'
+                            'reset reset';
+    column-gap: 200px;
+    row-gap: 30px;
+}
+
+.animazioneScelta{
+    animation: countdown 0.5s infinite;
+}
+
+@keyframes countdown {
+    25%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(20deg);
+    }
+    75%{
+        transform: rotate(-20deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+}
+
+#countdown{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#homepage{
+    position: absolute;
+    text-align: center;
+    font-size: x-large;
+    bottom: 50px;
+    right: 0px;
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    padding: 20px;
+}
