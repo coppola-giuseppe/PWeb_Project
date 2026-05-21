@@ -47,7 +47,9 @@ Include sia un servizio di registrazione, login e recupero credenziali che il tr
 
 Per testare questo progetto in locale, assicurati di avere installato un ambiente server come XAMPP, MAMP o soluzioni simili.
 
-1. **Clona la repository** all'interno della cartella pubblica del tuo server (es. `htdocs` per XAMPP):
+La guida seguirà come base XAMPP.
+
+1. **Clona la repository** all'interno della cartella pubblica del tuo server (`htdocs` per XAMPP):
    
 ```bash
    git clone https://github.com/coppola-giuseppe/PWeb_Project.git
@@ -55,7 +57,7 @@ Per testare questo progetto in locale, assicurati di avere installato un ambient
 
 2. **Configurazione del Database**
     
-    Usando come esempio XAMPP, avvia i moduli Apache e MySQL dal pannello di controllo di XAMPP.
+    Avvia i moduli Apache e MySQL dal pannello di controllo di XAMPP.
 
     Apri il browser e vai all'indirizzo:
     ```bash
