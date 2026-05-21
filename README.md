@@ -52,7 +52,7 @@ La guida seguirà come base XAMPP.
 1. **Clona la repository** all'interno della cartella pubblica del tuo server (`htdocs` per XAMPP):
    
 ```bash
-   git clone https://github.com/coppola-giuseppe/PWeb_Project.git
+   git clone https://github.com/coppola-giuseppe/Progetto-Progettazione-Web.git
 ```
 
 2. **Configurazione del Database**
@@ -76,7 +76,7 @@ La guida seguirà come base XAMPP.
     
 4. **Apri il browser** e digita:
     ```bash
-    http://localhost/PWeb_Project
+    http://localhost/Progetto-Progettazione-Web
     ```
 
 5. ***Buon divertimento!*** 😎😎
