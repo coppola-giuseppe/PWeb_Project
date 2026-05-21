@@ -49,7 +49,7 @@ Per testare questo progetto in locale, assicurati di avere installato un ambient
 
 La guida seguirà come base XAMPP.
 
-1. **Clona la repository** all'interno della cartella pubblica del tuo server (`htdocs` per XAMPP):
+1. **Clona la repository** all'interno della cartella pubblica del tuo server (`htdocs/` per XAMPP):
    
 ```bash
    git clone https://github.com/coppola-giuseppe/Progetto-Progettazione-Web.git
@@ -66,13 +66,13 @@ La guida seguirà come base XAMPP.
 
     Crea un nuovo database vuoto e chiamalo **playHub**.    
 
-    Seleziona il database appena creato, vai nella scheda *"Importa"* e carica il file *database.sql* che trovi nella cartella *mysql/* del progetto.
+    Seleziona il database appena creato, vai nella scheda *"Importa"* e carica il file *database.sql* che trovi nella cartella `mysql/` del progetto.
 
-3. **Naviga** all'interno della cartella del progetto fino a *php/utility/*.
+3. **Naviga** all'interno della cartella del progetto fino a `php/utility/`.
 
     Troverai un file chiamato *dbparams.example.php*. Rinominalo oppure fanne una copia chiamandola **dbparams.php**.
 
-    Apri il nuovo file dbparams.php con un editor di testo e inserisci le credenziali del tuo database locale.
+    Apri il nuovo file **dbparams.php** con un editor di testo e inserisci le credenziali del tuo database locale.
     
 4. **Apri il browser** e digita:
     ```bash
